@@ -38,7 +38,7 @@ if not group:
 else:
     df2 = df1[df1['Group'].isin(group)]
 
-st.write(df2)
+
 
 with col1:
     figure_ht = create_pie_chart(df2, 'HT', 'Hiện Tượng', ma_hien_tuong)
